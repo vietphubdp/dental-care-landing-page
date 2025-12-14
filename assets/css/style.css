@@ -377,3 +377,42 @@ a {
     font-weight: 300;
     line-height: 1.75; /* 175% */
 }
+
+/** Feature */
+.feature {
+    padding: 85px 0;
+    margin-top: 85px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    width: 332px;
+    height: 370px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.feature__inner {
+    display: flex;
+    gap: 130px;
+}
+
+.feature__cta {
+    margin-top: 38px;
+}
